@@ -9,7 +9,7 @@ export default function Services() {
   return (
     <section
       id="services"
-      className="container px-6 py-12 lg:h-[calc(100vh-4rem)] w-full max-w-6xl overflow-hidden"
+      className="container px-6 py-12 lg:h-[calc(100vh-4rem)] w-full max-w-6xl lg:mb-12"
     >
       {/* Header */}
       <div className="text-center lg:text-left">
