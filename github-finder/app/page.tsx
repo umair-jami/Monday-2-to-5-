@@ -28,6 +28,7 @@ export default function Home() {
       const data: GitHubUser = await response.json();
       setUserData(data);
     } catch (err) {
+      console.error(err)
       setUserData(null);
       setError("User not found");
     }
