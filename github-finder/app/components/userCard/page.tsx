@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 interface UserCardProps {
     user: {
       avatar_url: string;
@@ -14,7 +16,7 @@ interface UserCardProps {
   const UserCard: React.FC<UserCardProps> = ({ user }) => {
     return (
       <div className="mt-5 p-4 bg-gray-50 rounded-lg shadow-lg">
-        <img
+        <Image
           src={user.avatar_url}
           alt={user.login}
           className="w-24 h-24 rounded-full mx-auto"
