@@ -19,6 +19,8 @@ interface UserCardProps {
         <Image
           src={user.avatar_url}
           alt={user.login}
+          width={500}
+          height={500}
           className="w-24 h-24 rounded-full mx-auto"
         />
         <h2 className="text-xl font-semibold text-center mt-2">

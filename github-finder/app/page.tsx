@@ -1,6 +1,6 @@
 'use client'
+import UserCard from "@/components/userCard/page";
 import { useState } from "react";
-import UserCard from "./components/userCard/page";
 
 interface GitHubUser {
   login: string;
