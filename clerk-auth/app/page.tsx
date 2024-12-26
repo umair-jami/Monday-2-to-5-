@@ -9,6 +9,8 @@ const poppins = Poppins({
 });
 
 const HomePage = () => {
+  console.log(process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY)
+  console.log(process.env.CLERK_SECRET_KEY)
   return (
     <div className={` ${poppins.className} min-h-screen bg-gray-100 text-gray-800`}>
       {/* Header */}
